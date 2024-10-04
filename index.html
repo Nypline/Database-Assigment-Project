@@ -7,10 +7,29 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="script.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('images/main-background.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
 </head>
 
-<body background="">
-
+<body>
+    <div class="w-[1200px] h-[600px] bg-white rounded-[20px] flex ">
+        <div class="flex-1"></div>
+        <div class="flex-1 flex justify-center items-center bg-slate-50">
+            <img class="w-[570px] h-[570px] rounded-[20px]" src="images/main-background.png"></img>
+        </div>
+    </div>
 </body>
 
 </html>
